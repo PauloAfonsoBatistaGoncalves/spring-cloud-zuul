@@ -21,4 +21,4 @@ hystrix:
 zuul:
   ribbon:
     ConnectTimeout: 10000000
-    ReadTimeout: 10000000
+    ReadTimeout: 10000000  sensitive-headers:  - Cookie, Authorization
